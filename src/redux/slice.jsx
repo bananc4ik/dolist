@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import react from "react";
 
 const initialState ={
-    tasks:[],
+    tasksState:[],
 }
 
 
@@ -11,8 +11,8 @@ export const taskSlice = createSlice({
     initialState,
     reducers:{
         addTask:(state,action) =>{
-            state.tasks.push({
-                id:state.tasks.length,
+            state.tasksState.push({
+                id:state.tasksState.length,
                 text:action.payload,
                 iscompled:false,
             })

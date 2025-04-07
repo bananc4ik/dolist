@@ -4,7 +4,7 @@ import { addTask } from "../redux/slice";
 
 
 function Dolist() {
-    const tasks = useSelector((state) => state.tasks.tasks);
+    const tasks = useSelector((state) => state.tasksState);
     const dispatch = useDispatch();
     const [input, setInput] = useState("");
     const addNewTask = () =>{
