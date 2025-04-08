@@ -1,0 +1,48 @@
+.box{
+    height: 40vh;
+    font-size: 20px
+}
+
+.tasks_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.task{
+    background-color: rgb(255, 249, 237);
+    gap: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    border-radius: 12px;
+    display: flex;
+    border-style: none;
+    background-color: yellow;
+    width: 20vw;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add_task{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 249, 237);
+    gap: 15px;
+    padding-top: 20vh;
+
+}
+
+.delete_button{
+    width: 10vw;
+}
+
+p{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
