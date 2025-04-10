@@ -22,7 +22,7 @@ export const taskSlice = createSlice({
         deleteTask:(state,action) => {
             // state.tasksState = state.tasksState.filter(task => task.id !== action.payload);
             state.tasksState.splice(action.payload,1);
-
+                                            
 
         }
     }
